@@ -1,10 +1,14 @@
-
 import './App.css';
+import SearchMain from './components/SearchMain';
+import WeatherDetails from './components/WeatherDetails';
 
 function App() {
   return (
     <div className="App">
- <h1>HelloWorld</h1>
+<SearchMain>
+<WeatherDetails></WeatherDetails>
+</SearchMain>
+
     </div>
   );
 }
